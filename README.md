@@ -1,5 +1,7 @@
 # Codex Auth Switcher
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A small local tool for switching between multiple saved Codex `auth.json` files.
 
 It supports both:

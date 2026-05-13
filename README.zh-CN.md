@@ -1,5 +1,7 @@
 # Codex Auth Switcher
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 一个本地小工具，用来在多个 Codex 账号的 `auth.json` 之间快速切换。
 
 它提供两种使用方式：
