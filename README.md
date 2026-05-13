@@ -1,12 +1,22 @@
 # Codex Auth Switcher
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [Simplified Chinese / 简体中文](README.zh-CN.md)
 
 A small local tool for switching between multiple saved Codex `auth.json` files.
 
+## Easiest Install
+
+Download the Windows exe from the latest release:
+
+[Download CodexAuthSwitcher.exe](https://github.com/yezhouyedu/codex-auth-switcher/releases/download/v0.1.0/CodexAuthSwitcher.exe)
+
+Then double-click `CodexAuthSwitcher.exe`.
+
+You do not need Python for the exe release.
+
 It supports both:
 
-- a simple Tkinter GUI
+- a PySide6 / Qt desktop GUI
 - a CLI for scripting
 
 The tool never prints token values. It only validates that files are JSON,
@@ -24,7 +34,7 @@ C:\Users\<you>\.codex\auth.json
 If you have multiple accounts, you can save each account's `auth.json` as a
 profile and switch the active file when needed.
 
-## Install
+## Run From Source
 
 Requires Python 3.10+.
 
