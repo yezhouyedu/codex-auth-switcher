@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# Never commit real Codex credentials.
+auth.json
+*.auth.json
+auth_profiles/
+profiles.json
+auth.json.backup-*
+*.backup-*
